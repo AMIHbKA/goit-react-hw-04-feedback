@@ -3,7 +3,7 @@ import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Section } from './Section/Section';
 import { Notification } from './Notification/Notification';
 import { WidgetContainer } from './FeedbackWidget.styled';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export const FeedbackWidget = () => {
   const [good, setGood] = useState(0);
